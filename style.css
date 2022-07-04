@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,100&display=swap'); /* link da font do google fonts*/
+
+/*zerando as margens e elementos*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #FFF;
+	font: 'Poppins';
+}
+
+header,
+img{
+	width: 100%;
+	height: 380px;
+}
+
+nav{
+	width: 100%;
+	background-color: #C8A2C8;
+	text-align: center;
+	box-sizing: border-box;	
+}
+
+a{
+	font: 1.2rem 'Poppins', sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu:link,
+.menu:visited{
+	margin-right: 30px;
+	color: #000
+}
+
+.menu:active,
+.menu:hover{
+	margin-right: 30px;
+	color: #054F77;
+}
+
+article{
+	background-color: #fff;
+	text-align: justify;
+	padding: 30px;
+}
+
+h1{
+	font: 2.0rem 'Poppins', sans-serif; /*O font-family é para adicinar várias fontes parecidas*/ /* Pode utilizar para o tamanho da fonte px, rm e rem */
+	color: #000;
+	text-align: center;
+	margin: 30px 10px;
+}
+
+p{
+	font: 1.3rem 'Poppins', sans-serif; 
+	color: #000;
+	text-align: justify; 
+	margin: 20px;
+}
+section{}
+
+#pag-porqueadotar{
+	background-color: #C8A2C8;
+	padding: 30px
+}
+
+h2, h3{
+	font: 2rem 'Poppins', sans-serif, bold; 
+	color: #000;
+	margin: 30px 10px;
+}
+
+#pag-peludos h2, #pag-peludos p{
+	color: #000;
+	margin-bottom: 20px
+}
+
+ul{
+	margin-left: 40px;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+li{
+	font: 1.3rem 'Poppins', sans-serif;
+	color: #000;
+	margin-bottom: 20px
+}
+
+/*table-adoção*/
+
+#pag-peludos{
+    background-color: #fff;
+    padding: 30px;
+}
+
+#pag-peludos h2, #pag-peludos p{
+	margin-bottom: 20px;
+}
+
+#container{
+	display: flex;
+	margin-top: 20px;
+}
+
+.card{
+	background-color: #E5E4E2;
+	width: 30%;
+	margin: 15px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #ccc;
+}
+
+.card:hover{
+	box-shadow: 6px 6px 4px #ccc;
+}
+
+.img-card{
+	border-radius: 10px 10px 0 0;
+}
+
+.card-texto{
+	padding: 15px;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#pag-video{
+	background-color: #C8A2C8; 
+	padding: 30px;
+}
+
+#container-video{
+	padding: 20px;
+    display: flex;
+}
+
+#texto-video{
+	padding: 30px;
+}
+
+#contatos{
+	display: flex;
+	justify-content: center; 
+	margin-top: 50px;
+}
+
+#contatos p{
+	color: #000;
+	font-weight: 700;
+}
+
+#video{
+}
+
+video{
+	height: 400px;
+}
+
+.imagem-contatos{
+	width: 36px;
+	height: 36px;
+	margin: 10px;
+}
+
+#btn-topo{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+
+#btn-topo img{
+	width: 70px;
+	height: 70px;
+}
+
+footer{
+	background-color: #FFF;
+	padding: 10px;
+}
+
+footer p{
+	text-align: center;
+	color: #000;
+}
